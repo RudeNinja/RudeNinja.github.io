@@ -15,7 +15,7 @@
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
   --transition: 0.3s;
-  --text-box-color: #ee5e32f1;
+  --text-box-color: #f7683df1;
   --text-box-color2: #32c0ebf1;
   --bg-color2: #4423fe;
 }
@@ -54,6 +54,7 @@ section {
   /* max-width: 1100px;
   margin: auto; */
 }
+
 
 /* CSS Resets end */
 
@@ -142,6 +143,7 @@ nav ul li {
 /* More about */
 .more-about {
   background-color: var(--bg-color2);
+
   padding: 0.625rem;
   border-radius: 6px;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
@@ -152,6 +154,8 @@ nav ul li {
 .more-about h2 {
   margin-bottom: var(--bottom-margin);
   text-align: left;
+  color:#faf4f4;
+
   text-decoration: wavy;
   text-decoration-color: var(--secondary-color);
   text-rendering: auto;
@@ -161,6 +165,10 @@ nav ul li {
 .more-about p {
   line-height: var(--line-height);
   padding: 1.0rem;
+  color: aliceblue;
+  text-rendering: auto;
+  text-size-adjust: 100%;
+  text-transform: capitalize;
 }
 /* More about ends */
 
